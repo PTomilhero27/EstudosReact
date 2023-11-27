@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./alura-studies/node_modules
+./alura-studies/.pnp
+./alura-studies.pnp.js
+
+# testing
+./alura-studies/coverage
+
+# production
+./alura-studies/build
+
+# misc
+./alura-studies.DS_Store
+./alura-studies.env.local
+./alura-studies.env.development.local
+./alura-studies.env.test.local
+./alura-studies.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
